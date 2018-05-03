@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <h1 th:text="${userEnteredSearch.getName()}"> Searched mon </h1>
+
+    <img th:src="${userEnteredSearch.getImage()}"/>
+
+    <h2 th:text="${userEnteredSearch.getDescription()}"> Searched mon </h2>
+
+<a href="/home">Search Again</a>
+
+    <br>
+
+
+</head>
+<body>
+
+</body>
+</html>

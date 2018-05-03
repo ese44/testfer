@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <h1>MARVELOUS CHARACTER LIBRARY</h1>
+
+    <form action="#" method="POST" th:action="@{/addSearch}" th:object="${search}">
+        <input type="text" placeholder="character name" th:field="*{searchTerm}" />
+        <br>
+        <button id="Search Character">Search Marvel</button>
+    </form>
+
+</head>
+<body>
+
+</body>
+</html>
